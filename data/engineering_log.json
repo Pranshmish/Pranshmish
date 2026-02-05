@@ -1,23 +1,5 @@
 [
   {
-    "timestamp": "2026-08-31 01:15:14 UTC",
-    "date": "2026-08-31",
-    "scope": "vision",
-    "type": "perf",
-    "module": "Edge Vision Pipeline",
-    "title": "benchmark spatial feature extraction and bounding-box pruning",
-    "highlights": [
-      "Evaluated low-latency NMS (Non-Maximum Suppression) kernels",
-      "Measured frame-time variance on resource-constrained devices",
-      "Recorded vision pipeline performance matrix"
-    ],
-    "telemetry": {
-      "fps": 42.8,
-      "resolution": "640x480",
-      "precision": "FP16"
-    }
-  },
-  {
     "timestamp": "2026-09-01 22:29:49 UTC",
     "date": "2026-09-01",
     "scope": "agents",
@@ -1630,6 +1612,21 @@
     "type": "feat",
     "module": "Edge AI & Systems Telemetry",
     "title": "update edge node heartbeat telemetry and health status",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-02-05 19:53:47 UTC",
+    "date": "2026-02-05",
+    "scope": "embedded",
+    "type": "fix",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "refine circular ring buffer boundary checks and DMA sync",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
