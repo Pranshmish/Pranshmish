@@ -1,23 +1,5 @@
 [
   {
-    "timestamp": "2026-09-13 00:43:10 UTC",
-    "date": "2026-09-13",
-    "scope": "vision",
-    "type": "perf",
-    "module": "Edge Vision Pipeline",
-    "title": "benchmark spatial feature extraction and bounding-box pruning",
-    "highlights": [
-      "Evaluated low-latency NMS (Non-Maximum Suppression) kernels",
-      "Measured frame-time variance on resource-constrained devices",
-      "Recorded vision pipeline performance matrix"
-    ],
-    "telemetry": {
-      "fps": 42.8,
-      "resolution": "640x480",
-      "precision": "FP16"
-    }
-  },
-  {
     "timestamp": "2026-09-14 00:50:47 UTC",
     "date": "2026-09-14",
     "scope": "architecture",
@@ -1584,6 +1566,21 @@
     "type": "feat",
     "module": "Edge AI & Systems Telemetry",
     "title": "record telemetry event processing and latency histograms",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-02-15 18:25:45 UTC",
+    "date": "2026-02-15",
+    "scope": "architecture",
+    "type": "docs",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "document decentralized edge node failover and topology specs",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
