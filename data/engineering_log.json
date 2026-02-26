@@ -1,23 +1,5 @@
 [
   {
-    "timestamp": "2026-10-04 02:28:18 UTC",
-    "date": "2026-10-04",
-    "scope": "embedded",
-    "type": "fix",
-    "module": "Embedded Sensor Layer",
-    "title": "refine circular ring buffer boundary checks and DMA sync",
-    "highlights": [
-      "Hardened edge sensor stream ingestion routines against packet drops",
-      "Validated thread-safe DMA buffer exchange mechanism",
-      "Updated hardware communication diagnostics"
-    ],
-    "telemetry": {
-      "hardware": "ESP32 / Microcontrollers",
-      "protocol": "SPI / I2C / UART",
-      "throughput_kbps": 1250
-    }
-  },
-  {
     "timestamp": "2026-10-05 01:45:32 UTC",
     "date": "2026-10-05",
     "scope": "agents",
@@ -1528,6 +1510,21 @@
     "type": "docs",
     "module": "Edge AI & Systems Telemetry",
     "title": "document decentralized edge node failover and topology specs",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-02-26 22:31:36 UTC",
+    "date": "2026-02-26",
+    "scope": "vision",
+    "type": "perf",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "benchmark spatial feature extraction and bounding-box pruning",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
