@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-01-07 23:13:43 UTC",
-    "date": "2026-01-07",
-    "scope": "runtime",
-    "type": "feat",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "update edge node heartbeat telemetry and health status",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-01-08 10:48:28 UTC",
     "date": "2026-01-08",
     "scope": "telemetry",
@@ -1491,6 +1476,21 @@
     "type": "perf",
     "module": "Edge AI & Systems Telemetry",
     "title": "benchmark spatial feature extraction and bounding-box pruning",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-03-12 23:11:20 UTC",
+    "date": "2026-03-12",
+    "scope": "agents",
+    "type": "refactor",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "streamline async memory buffer and context pruning",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
