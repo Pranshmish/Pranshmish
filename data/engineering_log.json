@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-01-15 12:21:54 UTC",
-    "date": "2026-01-15",
-    "scope": "architecture",
-    "type": "docs",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "document decentralized edge node failover and topology specs",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-01-15 23:17:40 UTC",
     "date": "2026-01-15",
     "scope": "vision",
@@ -1491,6 +1476,21 @@
     "type": "refactor",
     "module": "Edge AI & Systems Telemetry",
     "title": "modularize tensor transformation and SIMD acceleration kernels",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-03-17 10:54:29 UTC",
+    "date": "2026-03-17",
+    "scope": "agents",
+    "type": "refactor",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "streamline async memory buffer and context pruning",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
