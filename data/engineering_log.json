@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-01-17 17:42:30 UTC",
-    "date": "2026-01-17",
-    "scope": "edge-ai",
-    "type": "perf",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "optimize INT8 quantization pipeline and inference throughput",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-01-18 13:23:30 UTC",
     "date": "2026-01-18",
     "scope": "architecture",
@@ -1491,6 +1476,21 @@
     "type": "refactor",
     "module": "Edge AI & Systems Telemetry",
     "title": "modularize tensor transformation and SIMD acceleration kernels",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-03-22 21:16:45 UTC",
+    "date": "2026-03-22",
+    "scope": "embedded",
+    "type": "fix",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "refine circular ring buffer boundary checks and DMA sync",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
