@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-01-18 13:23:30 UTC",
-    "date": "2026-01-18",
-    "scope": "architecture",
-    "type": "docs",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "document decentralized edge node failover and topology specs",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-01-18 16:10:20 UTC",
     "date": "2026-01-18",
     "scope": "algorithms",
@@ -1491,6 +1476,21 @@
     "type": "fix",
     "module": "Edge AI & Systems Telemetry",
     "title": "refine circular ring buffer boundary checks and DMA sync",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-03-23 14:35:21 UTC",
+    "date": "2026-03-23",
+    "scope": "edge-ai",
+    "type": "perf",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "optimize INT8 quantization pipeline and inference throughput",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
