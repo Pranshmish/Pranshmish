@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-01-31 21:42:17 UTC",
-    "date": "2026-01-31",
-    "scope": "vision",
-    "type": "perf",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "benchmark spatial feature extraction and bounding-box pruning",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-01 12:24:46 UTC",
     "date": "2026-02-01",
     "scope": "architecture",
@@ -1486,6 +1471,21 @@
   },
   {
     "timestamp": "2026-04-03 23:21:45 UTC",
+    "date": "2026-04-03",
+    "scope": "vision",
+    "type": "perf",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "benchmark spatial feature extraction and bounding-box pruning",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-04-03 23:39:14 UTC",
     "date": "2026-04-03",
     "scope": "vision",
     "type": "perf",
