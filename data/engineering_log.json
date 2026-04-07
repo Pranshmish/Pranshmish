@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-02-03 10:51:18 UTC",
-    "date": "2026-02-03",
-    "scope": "edge-ai",
-    "type": "perf",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "optimize INT8 quantization pipeline and inference throughput",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-03 17:48:49 UTC",
     "date": "2026-02-03",
     "scope": "agents",
@@ -1491,6 +1476,21 @@
     "type": "perf",
     "module": "Edge AI & Systems Telemetry",
     "title": "benchmark spatial feature extraction and bounding-box pruning",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-04-07 18:13:19 UTC",
+    "date": "2026-04-07",
+    "scope": "embedded",
+    "type": "fix",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "refine circular ring buffer boundary checks and DMA sync",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
