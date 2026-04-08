@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-02-03 17:48:49 UTC",
-    "date": "2026-02-03",
-    "scope": "agents",
-    "type": "refactor",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "streamline async memory buffer and context pruning",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-05 16:34:48 UTC",
     "date": "2026-02-05",
     "scope": "runtime",
@@ -1491,6 +1476,21 @@
     "type": "fix",
     "module": "Edge AI & Systems Telemetry",
     "title": "refine circular ring buffer boundary checks and DMA sync",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-04-08 22:17:46 UTC",
+    "date": "2026-04-08",
+    "scope": "vision",
+    "type": "perf",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "benchmark spatial feature extraction and bounding-box pruning",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
