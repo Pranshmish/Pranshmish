@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-02-09 18:59:33 UTC",
-    "date": "2026-02-09",
-    "scope": "architecture",
-    "type": "docs",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "document decentralized edge node failover and topology specs",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-09 20:25:14 UTC",
     "date": "2026-02-09",
     "scope": "architecture",
@@ -1491,6 +1476,21 @@
     "type": "perf",
     "module": "Edge AI & Systems Telemetry",
     "title": "optimize INT8 quantization pipeline and inference throughput",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-04-16 21:10:50 UTC",
+    "date": "2026-04-16",
+    "scope": "telemetry",
+    "type": "feat",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "record telemetry event processing and latency histograms",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
