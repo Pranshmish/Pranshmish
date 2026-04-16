@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-02-08 17:54:19 UTC",
-    "date": "2026-02-08",
-    "scope": "runtime",
-    "type": "feat",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "update edge node heartbeat telemetry and health status",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-09 18:59:33 UTC",
     "date": "2026-02-09",
     "scope": "architecture",
@@ -1491,6 +1476,21 @@
     "type": "feat",
     "module": "Edge AI & Systems Telemetry",
     "title": "update edge node heartbeat telemetry and health status",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-04-16 12:44:42 UTC",
+    "date": "2026-04-16",
+    "scope": "edge-ai",
+    "type": "perf",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "optimize INT8 quantization pipeline and inference throughput",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
