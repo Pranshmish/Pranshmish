@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-02-10 11:37:17 UTC",
-    "date": "2026-02-10",
-    "scope": "algorithms",
-    "type": "refactor",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "modularize tensor transformation and SIMD acceleration kernels",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-10 13:16:46 UTC",
     "date": "2026-02-10",
     "scope": "architecture",
@@ -1486,6 +1471,21 @@
   },
   {
     "timestamp": "2026-04-17 13:33:29 UTC",
+    "date": "2026-04-17",
+    "scope": "telemetry",
+    "type": "feat",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "record telemetry event processing and latency histograms",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-04-17 15:11:27 UTC",
     "date": "2026-04-17",
     "scope": "telemetry",
     "type": "feat",
