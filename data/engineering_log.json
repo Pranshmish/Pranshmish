@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-02-12 17:55:34 UTC",
-    "date": "2026-02-12",
-    "scope": "telemetry",
-    "type": "feat",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "record telemetry event processing and latency histograms",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-13 11:59:42 UTC",
     "date": "2026-02-13",
     "scope": "architecture",
@@ -1491,6 +1476,21 @@
     "type": "docs",
     "module": "Edge AI & Systems Telemetry",
     "title": "document decentralized edge node failover and topology specs",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-04-19 10:56:52 UTC",
+    "date": "2026-04-19",
+    "scope": "agents",
+    "type": "refactor",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "streamline async memory buffer and context pruning",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
