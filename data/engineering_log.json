@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-02-19 15:46:52 UTC",
-    "date": "2026-02-19",
-    "scope": "embedded",
-    "type": "fix",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "refine circular ring buffer boundary checks and DMA sync",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-19 19:25:17 UTC",
     "date": "2026-02-19",
     "scope": "architecture",
@@ -1491,6 +1476,21 @@
     "type": "refactor",
     "module": "Edge AI & Systems Telemetry",
     "title": "modularize tensor transformation and SIMD acceleration kernels",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-04-24 19:50:16 UTC",
+    "date": "2026-04-24",
+    "scope": "embedded",
+    "type": "fix",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "refine circular ring buffer boundary checks and DMA sync",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
