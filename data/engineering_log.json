@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-02-20 18:10:41 UTC",
-    "date": "2026-02-20",
-    "scope": "agents",
-    "type": "refactor",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "streamline async memory buffer and context pruning",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-21 15:42:53 UTC",
     "date": "2026-02-21",
     "scope": "embedded",
@@ -1487,6 +1472,21 @@
   {
     "timestamp": "2026-04-25 20:36:45 UTC",
     "date": "2026-04-25",
+    "scope": "agents",
+    "type": "refactor",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "streamline async memory buffer and context pruning",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-04-26 20:38:51 UTC",
+    "date": "2026-04-26",
     "scope": "agents",
     "type": "refactor",
     "module": "Edge AI & Systems Telemetry",
