@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-02-22 12:36:46 UTC",
-    "date": "2026-02-22",
-    "scope": "runtime",
-    "type": "feat",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "update edge node heartbeat telemetry and health status",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-22 17:55:31 UTC",
     "date": "2026-02-22",
     "scope": "architecture",
@@ -1491,6 +1476,21 @@
     "type": "perf",
     "module": "Edge AI & Systems Telemetry",
     "title": "benchmark spatial feature extraction and bounding-box pruning",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-04-29 10:26:41 UTC",
+    "date": "2026-04-29",
+    "scope": "architecture",
+    "type": "docs",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "document decentralized edge node failover and topology specs",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
