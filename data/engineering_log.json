@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-02-26 22:31:36 UTC",
-    "date": "2026-02-26",
-    "scope": "vision",
-    "type": "perf",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "benchmark spatial feature extraction and bounding-box pruning",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-02-28 10:38:33 UTC",
     "date": "2026-02-28",
     "scope": "architecture",
@@ -1491,6 +1476,21 @@
     "type": "refactor",
     "module": "Edge AI & Systems Telemetry",
     "title": "streamline async memory buffer and context pruning",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-05-03 11:56:58 UTC",
+    "date": "2026-05-03",
+    "scope": "telemetry",
+    "type": "feat",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "record telemetry event processing and latency histograms",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
