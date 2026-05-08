@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-03-02 19:55:48 UTC",
-    "date": "2026-03-02",
-    "scope": "telemetry",
-    "type": "feat",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "record telemetry event processing and latency histograms",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-03-03 13:53:33 UTC",
     "date": "2026-03-03",
     "scope": "algorithms",
@@ -1491,6 +1476,21 @@
     "type": "fix",
     "module": "Edge AI & Systems Telemetry",
     "title": "refine circular ring buffer boundary checks and DMA sync",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-05-08 20:16:43 UTC",
+    "date": "2026-05-08",
+    "scope": "vision",
+    "type": "perf",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "benchmark spatial feature extraction and bounding-box pruning",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
