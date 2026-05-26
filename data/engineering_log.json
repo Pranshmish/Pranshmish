@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-03-26 23:26:17 UTC",
-    "date": "2026-03-26",
-    "scope": "edge-ai",
-    "type": "perf",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "optimize INT8 quantization pipeline and inference throughput",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-03-27 12:54:33 UTC",
     "date": "2026-03-27",
     "scope": "agents",
@@ -1487,6 +1472,21 @@
   {
     "timestamp": "2026-05-25 22:53:34 UTC",
     "date": "2026-05-25",
+    "scope": "runtime",
+    "type": "feat",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "update edge node heartbeat telemetry and health status",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-05-26 20:36:16 UTC",
+    "date": "2026-05-26",
     "scope": "runtime",
     "type": "feat",
     "module": "Edge AI & Systems Telemetry",
