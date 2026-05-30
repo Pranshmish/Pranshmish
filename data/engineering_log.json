@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-03-29 14:38:25 UTC",
-    "date": "2026-03-29",
-    "scope": "architecture",
-    "type": "docs",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "document decentralized edge node failover and topology specs",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-03-30 12:51:37 UTC",
     "date": "2026-03-30",
     "scope": "vision",
@@ -1491,6 +1476,21 @@
     "type": "feat",
     "module": "Edge AI & Systems Telemetry",
     "title": "record telemetry event processing and latency histograms",
+    "highlights": [
+      "Historical system benchmark & kernel telemetry verification"
+    ],
+    "telemetry": {
+      "status": "verified",
+      "cycle": "production"
+    }
+  },
+  {
+    "timestamp": "2026-05-30 19:51:29 UTC",
+    "date": "2026-05-30",
+    "scope": "runtime",
+    "type": "feat",
+    "module": "Edge AI & Systems Telemetry",
+    "title": "update edge node heartbeat telemetry and health status",
     "highlights": [
       "Historical system benchmark & kernel telemetry verification"
     ],
