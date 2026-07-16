@@ -29,7 +29,7 @@ jobs:
       - name: Generate Top Languages Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
-          card: langs
+          card: top-langs
           options: username=Pranshmish&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=94A3B8
           path: generated/langs.svg
           token: ${{ secrets.PAT_TOKEN }}
