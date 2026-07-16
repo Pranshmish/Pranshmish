@@ -5,7 +5,7 @@
 
 <div align="center">
 
-### 🧠 Building intelligence at the edge — where hardware meets AI
+### <img src="icons/brain.svg" width="22" height="22" align="center" style="vertical-align: middle; margin-right: 8px;"> Building intelligence at the edge — where hardware meets AI
 
 [![GitHub](https://img.shields.io/badge/GitHub-Pranshmish-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pranshmish)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-pranshul--mishra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranshul-mishra-1b3ba5329/)
@@ -16,7 +16,7 @@
 
 ---
 
-#### ⚡ About Me
+#### <img src="icons/about.svg" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> About Me
 
 ```yaml
 name: Pranshul Mishra
@@ -30,7 +30,7 @@ open_to: Collaboration · Research · Open Source
 
 ---
 
-#### 🛠️ Tech Stack
+#### <img src="icons/tech.svg" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> Tech Stack
 
 <div align="center">
 
@@ -53,15 +53,15 @@ open_to: Collaboration · Research · Open Source
 
 ---
 
-#### 📊 GitHub Stats
+#### <img src="icons/stats.svg" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pranshmish&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=22D3EE&text_color=94A3B8&ring_color=10B981" alt="GitHub Stats" height="165"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=Pranshmish&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=22D3EE&text_color=94A3B8&ring_color=10B981" alt="GitHub Stats" height="165"/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Pranshmish&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=22D3EE&currStreakLabel=10B981" alt="GitHub Streak" height="165"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pranshmish&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=94A3B8" alt="Top Languages" height="150"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=Pranshmish&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=94A3B8" alt="Top Languages" height="150"/>
 </div>
 
 ---
