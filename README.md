@@ -5,7 +5,7 @@
 
 <div align="center">
 
-### <img src="icons/brain.svg" width="22" height="22" align="center" style="vertical-align: middle; margin-right: 8px;"> Building intelligence at the edge — where hardware meets AI
+### <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/icons/brain.svg?v=1" width="22" height="22" align="center" style="vertical-align: middle; margin-right: 8px;"> Building intelligence at the edge — where hardware meets AI
 
 [![GitHub](https://img.shields.io/badge/GitHub-Pranshmish-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pranshmish)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-pranshul--mishra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranshul-mishra-1b3ba5329/)
@@ -16,7 +16,7 @@
 
 ---
 
-#### <img src="icons/about.svg" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> About Me
+#### <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/icons/about.svg?v=1" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> About Me
 
 ```yaml
 name: Pranshul Mishra
@@ -30,7 +30,7 @@ open_to: Collaboration · Research · Open Source
 
 ---
 
-#### <img src="icons/tech.svg" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> Tech Stack
+#### <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/icons/tech.svg?v=1" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> Tech Stack
 
 <div align="center">
 
@@ -53,15 +53,15 @@ open_to: Collaboration · Research · Open Source
 
 ---
 
-#### <img src="icons/stats.svg" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> GitHub Stats
+#### <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/icons/stats.svg?v=1" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> GitHub Stats
 
 <div align="center">
-  <img src="./generated/stats.svg" alt="GitHub Stats" height="165"/>
+  <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/generated/stats.svg?v=1" alt="GitHub Stats" height="165"/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Pranshmish&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=22D3EE&currStreakLabel=10B981" alt="GitHub Streak" height="165"/>
 </div>
 
 <div align="center">
-  <img src="./generated/langs.svg" alt="Top Languages" height="150"/>
+  <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/generated/langs.svg?v=1" alt="Top Languages" height="150"/>
 </div>
 
 ---
