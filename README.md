@@ -56,7 +56,7 @@ open_to: Collaboration · Research · Open Source
 #### <img src="icons/stats.svg" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> GitHub Stats
 
 <div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Pranshmish&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=22D3EE&text_color=94A3B8&ring_color=10B981" alt="GitHub Stats" height="165"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=Pranshmish&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=22D3EE&text_color=94A3B8&ring_color=10B981" alt="GitHub Stats" height="165"/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Pranshmish&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=22D3EE&currStreakLabel=10B981" alt="GitHub Streak" height="165"/>
 </div>
 
