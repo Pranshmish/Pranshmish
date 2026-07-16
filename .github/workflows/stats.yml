@@ -1,0 +1,43 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch:      # Allows manual triggering
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Create generated folder
+        run: mkdir -p generated
+
+      - name: Generate GitHub Stats Card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=Pranshmish&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=22D3EE&text_color=94A3B8&ring_color=10B981
+          path: generated/stats.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Generate Top Languages Card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: langs
+          options: username=Pranshmish&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=94A3B8
+          path: generated/langs.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Commit and Push SVG Cards
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/*.svg
+          git commit -m "chore: update profile stats [skip ci]" || echo "No changes to commit"
+          git push
