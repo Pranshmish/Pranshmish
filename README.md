@@ -53,15 +53,15 @@ open_to: Collaboration · Research · Open Source
 
 ---
 
-#### <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/icons/stats.svg?v=1" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> GitHub Stats
+#### <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/icons/stats.svg?v=2" width="18" height="18" align="center" style="vertical-align: middle; margin-right: 6px;"> GitHub Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/generated/stats.svg?v=1" alt="GitHub Stats" height="165"/>
+  <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/generated/stats.svg?v=2" alt="GitHub Stats" height="165"/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Pranshmish&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=22D3EE&currStreakLabel=10B981" alt="GitHub Streak" height="165"/>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/generated/langs.svg?v=1" alt="Top Languages" height="150"/>
+  <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/generated/langs.svg?v=2" alt="Top Languages" height="150"/>
 </div>
 
 ---
