@@ -50,6 +50,10 @@ jobs:
           path: generated/langs.svg
           token: ${{ secrets.PAT_TOKEN }}
 
+      - name: Generate GitHub Streak Stats Card
+        run: |
+          curl -s "https://streak-stats.demolab.com/?user=Pranshmish&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=22D3EE&currStreakLabel=10B981" -o generated/streak.svg
+
       - name: Commit and Push SVG Cards
         run: |
           git config --global user.name "github-actions[bot]"

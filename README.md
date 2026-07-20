@@ -57,7 +57,7 @@ open_to: Collaboration · Research · Open Source
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/generated/stats.svg?v=3" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Pranshmish&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=22D3EE&currStreakLabel=10B981" alt="GitHub Streak" height="165"/>
+  <img src="https://raw.githubusercontent.com/Pranshmish/Pranshmish/main/generated/streak.svg?v=3" alt="GitHub Streak" height="165"/>
 </div>
 
 <div align="center">
