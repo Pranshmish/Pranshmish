@@ -2,8 +2,15 @@ name: Daily Green Contribution
 
 on:
   schedule:
-    - cron: "30 0 * * *" # Runs daily at 12:30 AM UTC (6:00 AM IST)
-  workflow_dispatch:      # Allows manual triggering
+    # Runs at 20:00 UTC and 23:00 UTC daily (checks if commits were made; commits if nothing was committed today)
+    - cron: "0 20,23 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force commit regardless of whether commits exist today"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   daily-commit:
@@ -14,15 +21,82 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN || github.token }}
+          fetch-depth: 10
 
-      - name: Update Timestamp
+      - name: Check User Commit Activity
+        id: check_activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
+          FORCE_RUN: ${{ github.event.inputs.force }}
+        run: |
+          python -c "
+          import urllib.request, json, os, sys
+          from datetime import datetime, timezone
+
+          force = os.environ.get('FORCE_RUN', 'false').lower() == 'true'
+          if force:
+              print('Force commit requested via workflow_dispatch.')
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                  f.write('should_commit=true\n')
+              sys.exit(0)
+
+          today_utc = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+          print(f'Checking commit activity for Pranshmish on {today_utc} (UTC)...')
+
+          token = os.environ.get('GITHUB_TOKEN', '')
+          headers = {'User-Agent': 'Daily-Contribution-Bot'}
+          if token:
+              headers['Authorization'] = f'Bearer {token}'
+
+          url = 'https://api.github.com/users/Pranshmish/events'
+          has_committed = False
+
+          try:
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req, timeout=15) as resp:
+                  events = json.loads(resp.read().decode('utf-8'))
+                  pushes_today = [
+                      e for e in events 
+                      if e.get('type') == 'PushEvent' and e.get('created_at', '').startswith(today_utc)
+                  ]
+                  if pushes_today:
+                      print(f'Found {len(pushes_today)} push event(s) today by Pranshmish.')
+                      has_committed = True
+                  else:
+                      print('No push events found for Pranshmish today.')
+          except Exception as e:
+              print(f'Warning: Failed to fetch events from GitHub API: {e}')
+              print('Proceeding with safety commit to prevent streak loss.')
+              has_committed = False
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              if has_committed:
+                  f.write('should_commit=false\n')
+              else:
+                  f.write('should_commit=true\n')
+          "
+
+      - name: Update Timestamp & Commit
+        if: steps.check_activity.outputs.should_commit == 'true'
         run: |
           mkdir -p generated
-          echo "Last updated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > generated/last_updated.txt
-
-      - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "Last contribution: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > generated/last_updated.txt
+          
+          git config --global user.name "Pranshmish"
+          git config --global user.email "pragya636@gmail.com"
+          
           git add generated/last_updated.txt
-          git diff --cached --quiet && echo "No changes" || (git commit -m "chore: daily contribution update $(date -u '+%Y-%m-%d')" && git push)
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(auto): daily contribution update $(date -u '+%Y-%m-%d')"
+            git push
+            echo "Successfully committed and pushed daily update for Pranshmish."
+          fi
+
+      - name: Skipped
+        if: steps.check_activity.outputs.should_commit != 'true'
+        run: |
+          echo "Commits already detected for today. Skipping automated commit."
