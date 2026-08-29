@@ -234,5 +234,23 @@
       "p99_ms": 41.6,
       "active_nodes": 8
     }
+  },
+  {
+    "timestamp": "2026-08-29 02:46:00 UTC",
+    "date": "2026-08-29",
+    "scope": "architecture",
+    "type": "docs",
+    "module": "System Architecture",
+    "title": "document decentralized edge node failover and topology specs",
+    "highlights": [
+      "Updated network topology graph for autonomous edge clusters",
+      "Defined node self-healing protocol during intermittent connectivity",
+      "Refreshed architectural decision record (ADR)"
+    ],
+    "telemetry": {
+      "spec_version": "v2.4",
+      "topology": "Peer-to-Peer Mesh",
+      "consensus": "Raft-Light"
+    }
   }
 ]
