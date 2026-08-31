@@ -270,5 +270,23 @@
       "protocol": "SPI / I2C / UART",
       "throughput_kbps": 1250
     }
+  },
+  {
+    "timestamp": "2026-08-31 01:15:14 UTC",
+    "date": "2026-08-31",
+    "scope": "vision",
+    "type": "perf",
+    "module": "Edge Vision Pipeline",
+    "title": "benchmark spatial feature extraction and bounding-box pruning",
+    "highlights": [
+      "Evaluated low-latency NMS (Non-Maximum Suppression) kernels",
+      "Measured frame-time variance on resource-constrained devices",
+      "Recorded vision pipeline performance matrix"
+    ],
+    "telemetry": {
+      "fps": 42.8,
+      "resolution": "640x480",
+      "precision": "FP16"
+    }
   }
 ]
