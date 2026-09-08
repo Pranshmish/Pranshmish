@@ -450,5 +450,23 @@
       "protocol": "SPI / I2C / UART",
       "throughput_kbps": 1250
     }
+  },
+  {
+    "timestamp": "2026-09-08 01:02:16 UTC",
+    "date": "2026-09-08",
+    "scope": "edge-ai",
+    "type": "perf",
+    "module": "Edge AI Inference Engine",
+    "title": "optimize INT8 quantization pipeline and inference throughput",
+    "highlights": [
+      "Recorded INT8 vs FP16 latency and throughput benchmarks",
+      "Optimized memory footprint for ONNX / TensorRT runtime execution",
+      "Synced edge inference telemetry logs"
+    ],
+    "telemetry": {
+      "metric": "latency_ms",
+      "target": "ARM Cortex-M / Raspberry Pi",
+      "framework": "ONNX/TFLite"
+    }
   }
 ]
