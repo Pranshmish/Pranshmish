@@ -813,5 +813,23 @@
       "speedup_factor": "2.8x",
       "cache_hit_rate": "98.2%"
     }
+  },
+  {
+    "timestamp": "2026-09-28 01:28:36 UTC",
+    "date": "2026-09-28",
+    "scope": "vision",
+    "type": "perf",
+    "module": "Edge Vision Pipeline",
+    "title": "benchmark spatial feature extraction and bounding-box pruning",
+    "highlights": [
+      "Evaluated low-latency NMS (Non-Maximum Suppression) kernels",
+      "Measured frame-time variance on resource-constrained devices",
+      "Recorded vision pipeline performance matrix"
+    ],
+    "telemetry": {
+      "fps": 42.8,
+      "resolution": "640x480",
+      "precision": "FP16"
+    }
   }
 ]
