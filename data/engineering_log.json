@@ -1,23 +1,5 @@
 [
   {
-    "timestamp": "2026-08-16 11:29:48 UTC",
-    "date": "2026-08-16",
-    "scope": "architecture",
-    "type": "docs",
-    "module": "System Architecture",
-    "title": "document decentralized edge node failover and topology specs",
-    "highlights": [
-      "Updated network topology graph for autonomous edge clusters",
-      "Defined node self-healing protocol during intermittent connectivity",
-      "Refreshed architectural decision record (ADR)"
-    ],
-    "telemetry": {
-      "spec_version": "v2.4",
-      "topology": "Peer-to-Peer Mesh",
-      "consensus": "Raft-Light"
-    }
-  },
-  {
     "timestamp": "2026-08-17 20:32:13 UTC",
     "date": "2026-08-17",
     "scope": "algorithms",
@@ -902,6 +884,24 @@
       "metric": "token_latency",
       "pattern": "Event-Driven Coordinator",
       "status": "stable"
+    }
+  },
+  {
+    "timestamp": "2026-10-06 01:13:30 UTC",
+    "date": "2026-10-06",
+    "scope": "architecture",
+    "type": "docs",
+    "module": "System Architecture",
+    "title": "document decentralized edge node failover and topology specs",
+    "highlights": [
+      "Updated network topology graph for autonomous edge clusters",
+      "Defined node self-healing protocol during intermittent connectivity",
+      "Refreshed architectural decision record (ADR)"
+    ],
+    "telemetry": {
+      "spec_version": "v2.4",
+      "topology": "Peer-to-Peer Mesh",
+      "consensus": "Raft-Light"
     }
   }
 ]
