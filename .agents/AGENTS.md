@@ -20,10 +20,11 @@ This repository is a GitHub profile README repository (Pranshmish/Pranshmish). T
 - **Location:** Gorakhpur, India
 - **Education:** MMMUT (B.Tech) · Research Intern @ NIT Patna
 - **Role:** Founder @ SynapSense
-- **Focus:** Fullstack Developer · AI Agents · Agentic System · Edge AI
+- **Headline:** Embedded Systems & TinyML Researcher | Bare-Metal C/C++ | Microcontroller SLM Runtimes
+- **Focus:** Bare-Metal C/C++ · FreeRTOS · TinyML Inference · Microcontroller SLMs · Edge Robotics (ROS 2)
 - **GitHub:** github.com/Pranshmish
 - **LinkedIn:** linkedin.com/in/pranshul-mishra-1b3ba5329
 - **Email:** pranshulmish@gmail.com
 
 ## Tech Stack
-Edge AI, Python, C/C++, TensorFlow, PyTorch, Docker, Raspberry Pi, ESP32, Linux, Git, VS Code, React, Node.js, TypeScript
+Bare-Metal C/C++, FreeRTOS, ESP-IDF, ARM Cortex-M, RISC-V, Embedded Linux, ROS 2, TinyML, TFLite Micro, PyTorch, ONNX, OpenCV, CMake, GDB, Docker, Git
