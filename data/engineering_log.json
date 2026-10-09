@@ -1,24 +1,5 @@
 [
   {
-    "timestamp": "2026-08-19 20:33:40 UTC",
-    "date": "2026-08-19",
-    "scope": "telemetry",
-    "type": "feat",
-    "module": "Distributed Metrics Aggregator",
-    "title": "record telemetry event processing and latency histograms",
-    "highlights": [
-      "Aggregated real-time system metrics across active execution nodes",
-      "Updated sliding window percentiles (p50, p95, p99)",
-      "Persisted node telemetry snapshot"
-    ],
-    "telemetry": {
-      "p50_ms": 12.4,
-      "p95_ms": 28.1,
-      "p99_ms": 41.6,
-      "active_nodes": 8
-    }
-  },
-  {
     "timestamp": "2026-08-20 20:33:50 UTC",
     "date": "2026-08-20",
     "scope": "embedded",
@@ -902,6 +883,24 @@
       "metric": "token_latency",
       "pattern": "Event-Driven Coordinator",
       "status": "stable"
+    }
+  },
+  {
+    "timestamp": "2026-10-09 00:12:49 UTC",
+    "date": "2026-10-09",
+    "scope": "architecture",
+    "type": "docs",
+    "module": "System Architecture",
+    "title": "document decentralized edge node failover and topology specs",
+    "highlights": [
+      "Updated network topology graph for autonomous edge clusters",
+      "Defined node self-healing protocol during intermittent connectivity",
+      "Refreshed architectural decision record (ADR)"
+    ],
+    "telemetry": {
+      "spec_version": "v2.4",
+      "topology": "Peer-to-Peer Mesh",
+      "consensus": "Raft-Light"
     }
   }
 ]
