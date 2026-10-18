@@ -1,23 +1,5 @@
 [
   {
-    "timestamp": "2026-08-24 20:35:36 UTC",
-    "date": "2026-08-24",
-    "scope": "embedded",
-    "type": "fix",
-    "module": "Embedded Sensor Layer",
-    "title": "refine circular ring buffer boundary checks and DMA sync",
-    "highlights": [
-      "Hardened edge sensor stream ingestion routines against packet drops",
-      "Validated thread-safe DMA buffer exchange mechanism",
-      "Updated hardware communication diagnostics"
-    ],
-    "telemetry": {
-      "hardware": "ESP32 / Microcontrollers",
-      "protocol": "SPI / I2C / UART",
-      "throughput_kbps": 1250
-    }
-  },
-  {
     "timestamp": "2026-08-24 23:26:18 UTC",
     "date": "2026-08-24",
     "scope": "algorithms",
@@ -902,6 +884,24 @@
       "metric": "latency_ms",
       "target": "ARM Cortex-M / Raspberry Pi",
       "framework": "ONNX/TFLite"
+    }
+  },
+  {
+    "timestamp": "2026-10-18 00:45:29 UTC",
+    "date": "2026-10-18",
+    "scope": "architecture",
+    "type": "docs",
+    "module": "System Architecture",
+    "title": "document decentralized edge node failover and topology specs",
+    "highlights": [
+      "Updated network topology graph for autonomous edge clusters",
+      "Defined node self-healing protocol during intermittent connectivity",
+      "Refreshed architectural decision record (ADR)"
+    ],
+    "telemetry": {
+      "spec_version": "v2.4",
+      "topology": "Peer-to-Peer Mesh",
+      "consensus": "Raft-Light"
     }
   }
 ]
