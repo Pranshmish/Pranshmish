@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-05-05 12:53:41 UTC",
-    "date": "2026-05-05",
-    "scope": "vision",
-    "type": "perf",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "benchmark spatial feature extraction and bounding-box pruning",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-05-05 14:35:34 UTC",
     "date": "2026-05-05",
     "scope": "architecture",
@@ -750,6 +735,24 @@
       "metric": "token_latency",
       "pattern": "Event-Driven Coordinator",
       "status": "stable"
+    }
+  },
+  {
+    "timestamp": "2026-10-22 23:06:47 UTC",
+    "date": "2026-10-22",
+    "scope": "embedded",
+    "type": "fix",
+    "module": "Embedded Sensor Layer",
+    "title": "refine circular ring buffer boundary checks and DMA sync",
+    "highlights": [
+      "Hardened edge sensor stream ingestion routines against packet drops",
+      "Validated thread-safe DMA buffer exchange mechanism",
+      "Updated hardware communication diagnostics"
+    ],
+    "telemetry": {
+      "hardware": "ESP32 / Microcontrollers",
+      "protocol": "SPI / I2C / UART",
+      "throughput_kbps": 1250
     }
   }
 ]
