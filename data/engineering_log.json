@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-05-09 16:59:17 UTC",
-    "date": "2026-05-09",
-    "scope": "telemetry",
-    "type": "feat",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "record telemetry event processing and latency histograms",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-05-09 19:13:40 UTC",
     "date": "2026-05-09",
     "scope": "telemetry",
@@ -772,6 +757,24 @@
       "p95_ms": 28.1,
       "p99_ms": 41.6,
       "active_nodes": 8
+    }
+  },
+  {
+    "timestamp": "2026-10-29 23:51:43 UTC",
+    "date": "2026-10-29",
+    "scope": "edge-ai",
+    "type": "perf",
+    "module": "Edge AI Inference Engine",
+    "title": "optimize INT8 quantization pipeline and inference throughput",
+    "highlights": [
+      "Recorded INT8 vs FP16 latency and throughput benchmarks",
+      "Optimized memory footprint for ONNX / TensorRT runtime execution",
+      "Synced edge inference telemetry logs"
+    ],
+    "telemetry": {
+      "metric": "latency_ms",
+      "target": "ARM Cortex-M / Raspberry Pi",
+      "framework": "ONNX/TFLite"
     }
   }
 ]
