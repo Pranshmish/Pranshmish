@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-05-09 19:13:40 UTC",
-    "date": "2026-05-09",
-    "scope": "telemetry",
-    "type": "feat",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "record telemetry event processing and latency histograms",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-05-11 11:52:17 UTC",
     "date": "2026-05-11",
     "scope": "agents",
@@ -775,6 +760,24 @@
       "metric": "latency_ms",
       "target": "ARM Cortex-M / Raspberry Pi",
       "framework": "ONNX/TFLite"
+    }
+  },
+  {
+    "timestamp": "2026-10-30 23:31:31 UTC",
+    "date": "2026-10-30",
+    "scope": "architecture",
+    "type": "docs",
+    "module": "System Architecture",
+    "title": "document decentralized edge node failover and topology specs",
+    "highlights": [
+      "Updated network topology graph for autonomous edge clusters",
+      "Defined node self-healing protocol during intermittent connectivity",
+      "Refreshed architectural decision record (ADR)"
+    ],
+    "telemetry": {
+      "spec_version": "v2.4",
+      "topology": "Peer-to-Peer Mesh",
+      "consensus": "Raft-Light"
     }
   }
 ]
