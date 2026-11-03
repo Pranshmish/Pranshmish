@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-05-11 22:18:35 UTC",
-    "date": "2026-05-11",
-    "scope": "algorithms",
-    "type": "refactor",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "modularize tensor transformation and SIMD acceleration kernels",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-05-12 23:58:48 UTC",
     "date": "2026-05-12",
     "scope": "embedded",
@@ -784,6 +769,24 @@
       "spec_version": "v2.4",
       "topology": "Peer-to-Peer Mesh",
       "consensus": "Raft-Light"
+    }
+  },
+  {
+    "timestamp": "2026-11-03 02:06:14 UTC",
+    "date": "2026-11-03",
+    "scope": "vision",
+    "type": "perf",
+    "module": "Edge Vision Pipeline",
+    "title": "benchmark spatial feature extraction and bounding-box pruning",
+    "highlights": [
+      "Evaluated low-latency NMS (Non-Maximum Suppression) kernels",
+      "Measured frame-time variance on resource-constrained devices",
+      "Recorded vision pipeline performance matrix"
+    ],
+    "telemetry": {
+      "fps": 42.8,
+      "resolution": "640x480",
+      "precision": "FP16"
     }
   }
 ]
