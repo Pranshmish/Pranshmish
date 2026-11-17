@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-05-17 22:34:18 UTC",
-    "date": "2026-05-17",
-    "scope": "agents",
-    "type": "refactor",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "streamline async memory buffer and context pruning",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-05-18 19:30:50 UTC",
     "date": "2026-05-18",
     "scope": "embedded",
@@ -818,6 +803,24 @@
       "p95_ms": 28.1,
       "p99_ms": 41.6,
       "active_nodes": 8
+    }
+  },
+  {
+    "timestamp": "2026-11-17 02:50:30 UTC",
+    "date": "2026-11-17",
+    "scope": "embedded",
+    "type": "fix",
+    "module": "Embedded Sensor Layer",
+    "title": "refine circular ring buffer boundary checks and DMA sync",
+    "highlights": [
+      "Hardened edge sensor stream ingestion routines against packet drops",
+      "Validated thread-safe DMA buffer exchange mechanism",
+      "Updated hardware communication diagnostics"
+    ],
+    "telemetry": {
+      "hardware": "ESP32 / Microcontrollers",
+      "protocol": "SPI / I2C / UART",
+      "throughput_kbps": 1250
     }
   }
 ]
