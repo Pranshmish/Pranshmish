@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2026-05-23 16:24:47 UTC",
-    "date": "2026-05-23",
-    "scope": "edge-ai",
-    "type": "perf",
-    "module": "Edge AI & Systems Telemetry",
-    "title": "optimize INT8 quantization pipeline and inference throughput",
-    "highlights": [
-      "Historical system benchmark & kernel telemetry verification"
-    ],
-    "telemetry": {
-      "status": "verified",
-      "cycle": "production"
-    }
-  },
-  {
     "timestamp": "2026-05-24 16:40:56 UTC",
     "date": "2026-05-24",
     "scope": "edge-ai",
@@ -853,6 +838,24 @@
       "hardware": "ESP32 / Microcontrollers",
       "protocol": "SPI / I2C / UART",
       "throughput_kbps": 1250
+    }
+  },
+  {
+    "timestamp": "2026-11-28 02:32:19 UTC",
+    "date": "2026-11-28",
+    "scope": "architecture",
+    "type": "docs",
+    "module": "System Architecture",
+    "title": "document decentralized edge node failover and topology specs",
+    "highlights": [
+      "Updated network topology graph for autonomous edge clusters",
+      "Defined node self-healing protocol during intermittent connectivity",
+      "Refreshed architectural decision record (ADR)"
+    ],
+    "telemetry": {
+      "spec_version": "v2.4",
+      "topology": "Peer-to-Peer Mesh",
+      "consensus": "Raft-Light"
     }
   }
 ]
